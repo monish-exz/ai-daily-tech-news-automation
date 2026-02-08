@@ -1,0 +1,12 @@
+requests
+beautifulsoup4
+openpyxl
+pandas
+gspread
+oauth2client
+schedule
+lxml
+trafilatura
+playwright
+validators
+feedparser
