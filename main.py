@@ -5,6 +5,7 @@ Implements a dynamic CLI for user interaction.
 
 import logging
 import sys
+import os
 from src.scraper.news_scraper import scrape_all_websites
 from src.utils.excel_handler import save_to_excel
 from src.sheets.google_sheets import upload_to_google_sheets

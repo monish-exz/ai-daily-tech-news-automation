@@ -63,7 +63,28 @@ AI_DAILY_TECH_NEWS_AUTOMATION/
 - **Cloud**: `gspread`, `oauth2client`
 - **Automation**: `Schedule`
 
-> **Note**: For Playwright to work on HTML-heavy sites, run `playwright install` after installing requirements.
+> **Note**: For Playwright to work on HTML-heavy sites, run `playwright install chromium` after installing requirements.
+
+---
+
+## [Installation] Installation & Setup
+
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/monish-exz/ai-daily-tech-news-automation.git
+    cd ai-daily-tech-news-automation
+    ```
+
+2.  **Run the automated setup script**:
+    This script will install all dependencies (including Playwright browsers for dynamic sites) and create necessary directories.
+    ```bash
+    python setup_project.py
+    ```
+
+3.  **Run the scraper**:
+    ```bash
+    python main.py
+    ```
 
 ---
 

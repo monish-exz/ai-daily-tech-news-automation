@@ -6,7 +6,9 @@ gspread
 oauth2client
 schedule
 lxml
+lxml_html_clean
 trafilatura
+
 playwright
 validators
 feedparser

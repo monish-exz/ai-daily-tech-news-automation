@@ -20,10 +20,15 @@ source venv/bin/activate
 ```
 
 ### 1.2 Dependencies
-Install the required packages and initialize Playwright:
+The easiest way to set up everything (including folders and browsers) is to run:
+```bash
+python setup_project.py
+```
+
+Alternatively, you can install manually:
 ```bash
 pip install -r requirements.txt
-playwright install
+playwright install chromium
 ```
 
 ---
